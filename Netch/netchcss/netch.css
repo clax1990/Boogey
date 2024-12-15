@@ -1,0 +1,46 @@
+
+
+
+
+
+
+.body{
+    background-color: rgb(40, 99, 122);
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Board-Container{
+    background-color: black;
+    display: flex;
+    position: relative;
+    height: 40%;
+    width: 40%;
+    top:10%;
+    left: 25%;
+}
+
+.Board{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    height: 98.5%;
+    width: 99%;
+    left: 0.5%;
+    top:0.7%;
+}
+
+.Test-Button{
+    background-color: rgb(199, 32, 32);
+    display: flex;
+    position: relative;
+    height: 4%;
+    width: 3%;
+    top:10%;
+    left: 14%;
+}
+

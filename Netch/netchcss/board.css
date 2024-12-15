@@ -1,0 +1,462 @@
+
+
+.Player-Piece1{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+
+.Board-Piece1{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:1%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece2{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece2{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:6.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece3{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece3{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:12%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece4{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece4{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:17.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece5{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece5{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:23%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece6{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece6{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:28.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece7{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece7{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:34%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece8{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece8{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:30%;
+    left:39.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece9{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece9{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:41%;
+    left:39.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Board-Piece10{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:52%;
+    left:39.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece10{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Player-Piece11{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece11{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:39.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece12{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece12{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:45%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece13{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece13{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:50.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece14{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece14{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:56%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece15{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece15{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:61.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece16{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece16{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:67%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece17{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece17{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:72.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece18{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece18{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:78%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece19{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece19{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:83.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece20{
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece20{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(32, 29, 36);
+    top:63%;
+    left:89%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
