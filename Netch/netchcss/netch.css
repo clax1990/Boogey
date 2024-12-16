@@ -5,7 +5,7 @@
 
 
 .body{
-    background-color: rgb(40, 99, 122);
+    background-color: rgb(112, 110, 107);
     display: flex;
     position: fixed;
     height: 100%;
@@ -16,12 +16,12 @@
 
 .Board-Container{
     background-color: black;
-    display: flex;
+    display: none;
     position: relative;
-    height: 40%;
+    height: 35%;
     width: 40%;
-    top:10%;
-    left: 25%;
+    top:10.5%;
+    left: 30%;
 }
 
 .Board{

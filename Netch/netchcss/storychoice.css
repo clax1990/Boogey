@@ -1,0 +1,95 @@
+
+
+
+
+
+
+.Story-Choice1{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    height: 15%;
+    width: 65%;
+    left:18%;
+    top:5%;
+    font-family: "Caveat", cursive;
+    border: 1px solid rgb(22, 26, 26);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50%;
+}
+
+.Story-Choice1:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255), 
+                0 0 30px 10px rgb(253, 253, 253), 
+                0 0 40px 15px rgb(255, 255, 255);
+    transform: scale(1.05); 
+}
+
+.Story-Choice2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    height: 15%;
+    width: 65%;
+    left:18.0%;
+    top:28%;
+    font-family: "Caveat", cursive;
+    border: 1px solid rgb(22, 26, 26);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 47%;
+}
+
+.Story-Choice2:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255), 
+                0 0 30px 10px rgb(253, 253, 253), 
+                0 0 40px 15px rgb(255, 255, 255);
+    transform: scale(1.05); 
+}
+
+.Story-Choice3{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    height: 15%;
+    width: 64%;
+    left:18.5%;
+    top:51%;
+    font-family: "Caveat", cursive;
+    border: 1px solid rgb(22, 26, 26);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.Story-Choice3:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255), 
+                0 0 30px 10px rgb(253, 253, 253), 
+                0 0 40px 15px rgb(255, 255, 255);
+    transform: scale(1.05); 
+}
+
+.Story-Choice4{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    height: 15%;
+    width: 64%;
+    left:18.5%;
+    top:75%;
+    font-family: "Caveat", cursive;
+    
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80%;
+    border: 1px solid rgb(22, 26, 26);
+    
+}
+
+.Story-Choice4:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255), 
+                0 0 30px 10px rgb(253, 253, 253), 
+                0 0 40px 15px rgb(255, 255, 255);
+    transform: scale(1.05); 
+}
