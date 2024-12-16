@@ -14,7 +14,6 @@ function newGame(){
     getStoryChoiceDisplayContainer.style.display = "flex";
     getStoryDisplayContainer.style.display = "flex";
     getInterface1Container.style.display = "flex";
-    getInterface2Container.style.display = "flex";
     getBoardContainer.style.display = "flex";
 }
 

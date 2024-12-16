@@ -1,9 +1,3 @@
-
-
-
-
-
-
 let PlayerPosition = 0;
  let Gate1 = 0;
 

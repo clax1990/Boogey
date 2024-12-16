@@ -69,9 +69,9 @@
 }
 
 .Interface2{
-    display: flex;
+    display: none;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(204, 18, 18);
     height: 97%;
     width: 97%;
     top:1.5%;
