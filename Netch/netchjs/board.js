@@ -1,148 +1,204 @@
-let PlayerPosition = 0;
- let Gate1 = 0;
+
+ 
 
 
- let PlayerPiece1 = document.getElementById("Player-Piece1");
- let PlayerPiece2 = document.getElementById("Player-Piece2");
- let PlayerPiece3 = document.getElementById("Player-Piece3");
- let PlayerPiece4 = document.getElementById("Player-Piece4");
- let PlayerPiece5 = document.getElementById("Player-Piece5");
- let PlayerPiece6 = document.getElementById("Player-Piece6");
- let PlayerPiece7 = document.getElementById("Player-Piece7");
- let PlayerPiece8 = document.getElementById("Player-Piece8");
- let PlayerPiece9 = document.getElementById("Player-Piece9");
- let PlayerPiece10 = document.getElementById("Player-Piece10");
- let PlayerPiece11 = document.getElementById("Player-Piece11");
- let PlayerPiece12 = document.getElementById("Player-Piece12");
- let PlayerPiece13 = document.getElementById("Player-Piece13");
- let PlayerPiece14 = document.getElementById("Player-Piece14");
- let PlayerPiece15 = document.getElementById("Player-Piece15");
- let PlayerPiece16 = document.getElementById("Player-Piece16");
- let PlayerPiece17 = document.getElementById("Player-Piece17");
- let PlayerPiece18 = document.getElementById("Player-Piece18");
- let PlayerPiece19 = document.getElementById("Player-Piece19");
- let PlayerPiece20 = document.getElementById("Player-Piece20");
-
-
-
- let PlayerPieces = [PlayerPiece1, PlayerPiece2,PlayerPiece3,PlayerPiece4,PlayerPiece5,PlayerPiece6,PlayerPiece7,PlayerPiece8,PlayerPiece9,PlayerPiece10,PlayerPiece11,PlayerPiece12,PlayerPiece13,PlayerPiece14,PlayerPiece15,PlayerPiece16,PlayerPiece17,PlayerPiece18,PlayerPiece19,PlayerPiece20];
+ let count = 0;
+ let playerPosition = 0;
 
 
 
 
-function movePlayerPiece() {
-     let randomNumber = Math.floor(Math.random() * 6) + 1;
-     PlayerPosition = PlayerPosition + randomNumber;
-    
-      console.log(`${PlayerPosition}`);
-      console.log(`You Rolled a ${randomNumber}`);
+
+ function movePlayerPiece() {
+   let randomNumber = Math.floor(Math.random() * 6) + 1;
+
+    count = count + randomNumber;
+    playerPosition = count;
+
+
+    console.log(`You Rolled a ${randomNumber}`);
+    console.log(`Current Player Position: ${playerPosition}`);
+    console.log(`Count: ${count}`);
+    switch (playerPosition) {
+    case 1:
+      gsap.to('.Player-Piece1' , {
       
-      if(PlayerPosition >= 21){
-        alert("No more room");
-      }else {
-
+         duration: 2, transition: 3, x: '250%'
       
-     switch (PlayerPosition) {
-         case 1:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-               
-           
-         break;
       
-         case 2:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+       });
+    break;
+ 
+    case 2:
+      gsap.to('.Player-Piece1' , {
       
-         case 3:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+         duration: 2, transition: 3, x: '440%'
+      
+      
+       });
+    break;
+ 
+    case 3:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '665%'
+      
+      
+       });
+    break;
 
-         case 4:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 4:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '880%'
+      
+      
+       });
+    break;
+ 
+    case 5:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '1100%'
+      
+      
+       });
+    break;
+ 
+    case 6:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '1330%'
+      
+      
+       });
+    break;
 
-         case 5:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 7:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '1550%'
+      
+      
+       });
+    break;
+ 
+    case 8:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '1770%'
+      
+      
+       });
+    break;
+ 
+    case 9:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '2000%'
+      
+      
+       });
+    break;
 
-         case 6:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 10:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '2220%'
+      
+      
+       });
+    break;
+ 
+    case 11:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '2450%'
+      
+      
+       });
+    break;
+ 
+    case 12:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '2670%'
+      
+      
+       });
+    break;
 
-         case 7:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 13:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '2890%'
+      
+      
+       });
+    break;
+ 
+    case 14:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '3100%'
+      
+      
+       });
+    break;
+ 
+    case 15:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '3330%'
+      
+      
+       });
+    break;
 
-         case 8:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 16:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '3550%'
+      
+      
+       });
+    break;
+ 
+    case 17:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '3770%'
+      
+      
+       });
+    break;
+ 
+    case 18:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '3990%'
+      
+      
+       });
+    break;
 
-         case 9:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 10:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 11:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 12:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 13:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 14:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 15:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 16:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 17:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 18:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 19:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
-
-         case 20:
-            PlayerPieces[PlayerPosition].style.display = "flex";
-            PlayerPieces[PlayerPosition - randomNumber].style.display = "none";
-         break;
+    case 19:
+      gsap.to('.Player-Piece1' , {
+      
+         duration: 2, transition: 3, x: '4230%'
+      
+      
+       });
+    break;
+ 
    
-  }}}
+ 
+    
+ }
+ 
+
+   
+  
+ }
+
+
