@@ -5,19 +5,8 @@
 
 
 
+.Player-Piece21{
 
-
-.Board-Image1{
-    display: flex;
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-.Player-Piece1{
     display: none;
     position:absolute;
     height: 50%;
@@ -28,21 +17,644 @@
     z-index: 10;
 }
 
-
-.Board-Piece1{
+.Board-Piece21{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
+    top:11%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece22{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece22{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:22%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece23{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece23{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:33%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece24{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece24{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:44%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece25{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece25{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:55%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece26{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece26{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:66%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece27{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece27{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:77%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece28{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece28{
+    display: flex;
+    position: absolute;
+    height: 11%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:88%;
+    left:95.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece29{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece29{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:90.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece30{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece30{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:85.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece31{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece31{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:80.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece32{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece32{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:75.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece33{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece33{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:70.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece34{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece34{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:65.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece35{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece35{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:60.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece36{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece36{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:55.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece37{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece37{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:50.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece38{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece38{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:45.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece39{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece39{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:40.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece40{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece40{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:35.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece41{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece41{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:30.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece42{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece42{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:25.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece43{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece43{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:20.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece44{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece44{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:15.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece45{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece45{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:10.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece46{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece46{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:4.5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
+    left:5.5%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgb(11, 15, 24);
+}
+
+.Player-Piece47{
+
+    display: none;
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    top:25%;
+    left:25%;
+    z-index: 10;
+}
+
+.Board-Piece47{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width:5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    top:89%;
     left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
-
 }
 
-.Player-Piece2{
+.Player-Piece48{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -53,19 +665,20 @@
     z-index: 10;
 }
 
-.Board-Piece2{
+.Board-Piece48{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:5%;
+    top:78%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece3{
+.Player-Piece49{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -76,19 +689,20 @@
     z-index: 10;
 }
 
-.Board-Piece3{
+.Board-Piece49{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:10%;
+    top:67%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece4{
+.Player-Piece50{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -99,19 +713,20 @@
     z-index: 10;
 }
 
-.Board-Piece4{
+.Board-Piece50{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:15%;
+    top:56%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece5{
+.Player-Piece51{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -122,19 +737,20 @@
     z-index: 10;
 }
 
-.Board-Piece5{
+.Board-Piece51{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:20%;
+    top:45%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece6{
+.Player-Piece52{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -145,19 +761,20 @@
     z-index: 10;
 }
 
-.Board-Piece6{
+.Board-Piece52{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:25%;
+    top:34%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece7{
+.Player-Piece53{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -168,19 +785,20 @@
     z-index: 10;
 }
 
-.Board-Piece7{
+.Board-Piece53{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:30%;
+    top:23%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
 
-.Player-Piece8{
+.Player-Piece54{
+
     display: none;
     position:absolute;
     height: 50%;
@@ -191,291 +809,14 @@
     z-index: 10;
 }
 
-.Board-Piece8{
+.Board-Piece54{
     display: flex;
     position: absolute;
     height: 10%;
     width:4.5%;
     background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:35%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece9{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece9{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:40%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Board-Piece10{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:45%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece10{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Player-Piece11{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece11{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:50%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece12{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece12{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:55%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece13{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece13{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:60%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece14{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece14{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:65%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece15{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece15{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:70%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece16{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece16{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:85%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece17{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece17{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:75%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece18{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece18{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:80%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece19{
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece19{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:4.5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:90%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
-
-.Player-Piece20{
-
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
-
-.Board-Piece20{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:95%;
+    top:11.5%;
+    left:0%;
     border-radius: 3px;
     box-shadow: 0px 3px 7px rgb(11, 15, 24);
 }
@@ -483,26 +824,20 @@
 
 
 
-.Player-Piece20{
 
-    display: none;
-    position:absolute;
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    top:25%;
-    left:25%;
-    z-index: 10;
-}
 
-.Board-Piece20{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width:5%;
-    background-color: rgb(255, 255, 255, 0.5);
-    top:0%;
-    left:95%;
-    border-radius: 3px;
-    box-shadow: 0px 3px 7px rgb(11, 15, 24);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
