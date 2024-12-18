@@ -19,11 +19,14 @@
     console.log(`You Rolled a ${randomNumber}`);
     console.log(`Current Player Position: ${playerPosition}`);
     console.log(`Count: ${count}`);
-    switch (playerPosition) {
+
+
+
+    switch (36) {
     case 1:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '250%'
+         duration: 0.5, transition: 3, x: '220%'
       
       
        });
@@ -32,7 +35,7 @@
     case 2:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '440%'
+         duration: 0.5, transition: 3, x: '450%'
       
       
        });
@@ -41,7 +44,7 @@
     case 3:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '665%'
+         duration: 0.5, transition: 3, x: '660%'
       
       
        });
@@ -50,7 +53,7 @@
     case 4:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '880%'
+         duration: 0.5, transition: 3, x: '880%'
       
       
        });
@@ -59,7 +62,7 @@
     case 5:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '1100%'
+         duration: 0.5, transition: 3, x: '1100%'
       
       
        });
@@ -68,7 +71,7 @@
     case 6:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '1330%'
+         duration: 0.5, transition: 3, x: '1330%'
       
       
        });
@@ -77,7 +80,7 @@
     case 7:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '1550%'
+         duration: 0.5, transition: 3, x: '1550%'
       
       
        });
@@ -86,7 +89,7 @@
     case 8:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '1770%'
+         duration: 0.5, transition: 3, x: '1770%'
       
       
        });
@@ -95,7 +98,7 @@
     case 9:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '2000%'
+         duration: 0.5, transition: 3, x: '2000%'
       
       
        });
@@ -104,7 +107,7 @@
     case 10:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '2220%'
+         duration: 0.5, transition: 3, x: '2220%'
       
       
        });
@@ -113,7 +116,7 @@
     case 11:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '2450%'
+         duration: 0.5, transition: 3, x: '2450%'
       
       
        });
@@ -122,7 +125,7 @@
     case 12:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '2670%'
+         duration: 0.5, transition: 3, x: '2670%'
       
       
        });
@@ -131,7 +134,7 @@
     case 13:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '2890%'
+         duration: 0.5, transition: 3, x: '2890%'
       
       
        });
@@ -140,7 +143,7 @@
     case 14:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '3100%'
+         duration: 0.5, transition: 3, x: '3100%'
       
       
        });
@@ -149,7 +152,7 @@
     case 15:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '3330%'
+         duration: 0.5, transition: 3, x: '3330%'
       
       
        });
@@ -158,7 +161,7 @@
     case 16:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '3550%'
+         duration: 0.5, transition: 3, x: '3550%'
       
       
        });
@@ -167,7 +170,7 @@
     case 17:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '3770%'
+         duration: 0.5, transition: 3, x: '3770%'
       
       
        });
@@ -176,7 +179,7 @@
     case 18:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '3990%'
+         duration: 0.5, transition: 3, x: '3990%'
       
       
        });
@@ -185,11 +188,148 @@
     case 19:
       gsap.to('.Player-Piece1' , {
       
-         duration: 2, transition: 3, x: '4230%'
+         duration: 0.5, transition: 3, x: '4240%'
       
       
        });
     break;
+
+    case 20:
+    gsap.timeline()
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4240%'})
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '200%'})
+
+    break;
+
+    case 21:
+    gsap.timeline()
+    
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '400%'})
+
+    break;
+
+    case 22:
+    gsap.timeline()
+    
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '600%'})
+
+    break;
+
+    case 23:
+    gsap.timeline()
+    
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+    .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '800%'})
+
+    break;
+
+    case 24:
+      gsap.timeline()
+      
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1000%'})
+  
+      break;
+
+    case 25:
+         gsap.timeline()
+         
+         .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+         .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1200%'})
+     
+    break;
+
+    case 26:
+      gsap.timeline()
+      
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1400%'})
+  
+    break;
+
+    case 27:
+      gsap.timeline()
+      
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+  
+    break;
+
+    case 28:
+         gsap.timeline()
+         
+         //.to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+         .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+         .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4030%'})
+     
+    break;
+
+    case 29:
+      gsap.timeline()
+      
+     // .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '3800%'})
+
+  
+    break;
+
+    case 30:
+      gsap.timeline()
+      
+    //  .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '3600%'})
+  
+    break;
+
+
+    case 31:
+       gsap.timeline()
+       .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+       .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+       .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '3350%'})
+    break;
+
+    case 32:
+      gsap.timeline()
+      .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '3150%'})
+    break;
+
+    case 33:
+      gsap.timeline()
+      .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '2900%'})
+    break;
+
+    case 34:
+      gsap.timeline()
+      .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '2700%'})
+    break;
+
+    case 35:
+      gsap.timeline()
+      .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '2450%'})
+    break;
+
+    case 36:
+      gsap.timeline()
+      .to('.Player-Piece1', {duration: 2, transition: 3, x: '4230%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
+      .to('.Player-Piece1', {duration: 0.5, transition: 3, x: '2250%'})
+   break;
+
+ 
+ 
  
    
  
