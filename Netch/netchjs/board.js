@@ -341,7 +341,7 @@
       //.to('.Player-Piece1', {duration: 0.5, transition: 3, x: '4230%'})
       //.to('.Player-Piece1', {duration: 0.5, transition: 3, y: '1600%'})
       .to('.Player-Piece1', {duration: 0, opacity: 1, x: '10%'})
-      .to('.Player-Piece1', {duration: 0.5, opacity: 1, y: '1200%'})
+      .to('.Player-Piece1', {duration: 0.5, opacity: 1, y: '900%'})
 
     break;
 
