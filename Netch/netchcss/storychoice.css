@@ -7,7 +7,7 @@
 .Story-Choice1{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    display: flex;
+    display: none;
     height: 15%;
     width: 65%;
     left:18%;
@@ -24,12 +24,13 @@
                 0 0 30px 10px rgb(253, 253, 253), 
                 0 0 40px 15px rgb(255, 255, 255);
     transform: scale(1.05); 
+    cursor: pointer;
 }
 
 .Story-Choice2{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    display: flex;
+    display: none;
     height: 15%;
     width: 65%;
     left:18.0%;
@@ -51,7 +52,7 @@
 .Story-Choice3{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    display: flex;
+    display: none;
     height: 15%;
     width: 64%;
     left:18.5%;
@@ -73,7 +74,7 @@
 .Story-Choice4{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    display: flex;
+    display: none;
     height: 15%;
     width: 64%;
     left:18.5%;

@@ -6,7 +6,7 @@
 
 
 .Player-Stats-Container{
-    display: flex;
+    display: none;
     position: absolute;
     height: 60%;
     width:20%;

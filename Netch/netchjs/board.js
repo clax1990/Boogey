@@ -10,7 +10,7 @@
 
 
  function movePlayerPiece() {
-
+ console.log(`Event Gate: ${eventGate}`);
    setTimeout(() => {
       getDiceRollButton.disabled = true;
     }, .1); // 3000 milliseconds = 3 seconds
@@ -42,10 +42,14 @@
       //gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, y: '80%'});
     }
 
-    switch (playerPosition) {
+    switch (1) {
     case 1:
       gsap.to('.Player-Piece1' , {duration: 0.5, opacity: 1, x: '165%'});
-   
+
+    
+
+
+      Boogey();
       
     break;
  
