@@ -6,18 +6,18 @@
  let playerPosition = 0;
  let getDiceRollButton = document.getElementById("Dice-Roll-Button");
 
-
+ let randomNumberBoogey = Math.random() * 100; 
 
 
  function movePlayerPiece() {
  console.log(`Event Gate: ${eventGate}`);
    setTimeout(() => {
       getDiceRollButton.disabled = true;
-    }, .1); // 3000 milliseconds = 3 seconds
+    }, .1); 
     
     setTimeout(() => {
       getDiceRollButton.disabled = false;
-    }, 3000); // Timeout duration in milliseconds
+    }, 3000);
 
    let randomNumber = Math.floor(Math.random() * 6) + 1;
 
@@ -28,11 +28,12 @@
     console.log(`You Rolled a ${randomNumber}`);
     console.log(`Current Player Position: ${playerPosition}`);
     console.log(`Count: ${count}`);
+    console.log(`StoryChoice-Count: ${storyChoiceCount}`)
 
 
   
     
-    if (playerPosition >= 54){
+     if (playerPosition >= 54){
      count = 0;
      playerPosition = 0;
       console.log(`You Rolled a ${randomNumber}`);
@@ -40,39 +41,51 @@
       console.log(`Count: ${count}`);
       gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, y: '20%'});
       //gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, y: '80%'});
-    }
+     }
 
-    switch (1) {
-    case 1:
-      gsap.to('.Player-Piece1' , {duration: 0.5, opacity: 1, x: '165%'});
+     switch (playerPosition) {
 
-    
+     case 1:
 
+       gsap.to('.Player-Piece1' , {duration: 0.5, opacity: 1, x: '165%'});
 
-      Boogey();
-      
-    break;
+       Event1();
+     
+       if (randomNumberBoogey < 1) {
+           console.log("You got the 1 in 100 chance!");
+           Boogey();
+           console.log(`Game over. Game ended on Tile ${playerPosition}`);
+       } 
+
+     break;
  
-    case 2:
-      gsap.to('.Player-Piece1' , {duration: 0.5, opacity: 1, x: '335%'});
-    
-    break;
+     case 2:
+       gsap.to('.Player-Piece1' , {duration: 0.5, opacity: 1, x: '335%'});
+       Event2();
+
+       if (randomNumberBoogey < 1) {
+        console.log("You got the 1 in 100 chance!");
+        Boogey();
+        console.log(`Game over. Game ended on Tile ${playerPosition}`);
+       } 
+
+     break;
  
-    case 3:
+     case 3:
       gsap.to('.Player-Piece1' , {duration: 0.5, x: '495%'});
-    break;
+     break;
 
-    case 4:
+     case 4:
       gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, x: '660%'});
-    break;
+     break;
  
-    case 5:
+     case 5:
       gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, x: '825%'});
-    break;
+     break;
  
-    case 6:
+     case 6:
       gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, x: '990%'});
-    break;
+     break;
 
     case 7:
       gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, x: '1155%'});

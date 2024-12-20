@@ -5,7 +5,7 @@
 
 
 .body{
-    background-color: rgb(112, 110, 107);
+    background-color: rgb(255, 255, 255);
     display: flex;
     position: fixed;
     height: 100%;
@@ -18,9 +18,9 @@
     background-color: black;
     display: none;
     position: relative;
-    height: 35%;
+    height: 50%;
     width: 40%;
-    top:10.5%;
+    top:5.5%;
     left: 30%;
 }
 
