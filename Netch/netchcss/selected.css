@@ -4,31 +4,129 @@
 
 
 
-.Selected-Top-Center-Door{
-    background-color: black;
+.Selected-Door1{
+    background-color: rgb(226, 193, 45);
     height: 5%;
-    width: 3%;
+    width: 2%;
     display: flex;
     position: absolute;
-    left:48.7%;
-    top:25%;
+    left:49.25%;
+    top:24.5%;
     z-index: 10;
     opacity: 0;
+   
+}
+
+.Selected-Door1:hover{
+    background-color: rgb(255, 255, 255);
+    height: 4.2%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:49.25%;
+    top:24.5%;
+    z-index: 10;
+    opacity: 1;
+    -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+    box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+
+    border: .1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 
 
-.Selected-Top-Center-Door:hover{
-    background-color: rgb(0, 0, 0);
-    height: 5%;
-    width: 3%;
+.Selected-Door2{
+    background-color: rgb(226, 193, 45);
+    height: 4.5%;
+    width: 2%;
     display: flex;
     position: absolute;
-    left:48.8%;
-    top:25%;
+    left:37.9%;
+    top:16.3%;
+    z-index: 10;
+    opacity: 0;
+   
+}
+
+.Selected-Door2:hover{
+    background-color: rgb(255, 255, 255);
+    height: 4.5%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:37.9%;
+    top:16.3%;
     z-index: 10;
     opacity: 1;
     -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
--moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+    box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+
+    border: .1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+.Selected-Door3{
+    background-color: rgb(226, 193, 45);
+    height: 5%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:49.25%;
+    top:24.5%;
+    z-index: 10;
+    opacity: 0;
+   
+}
+
+.Selected-Door3:hover{
+    background-color: rgb(255, 255, 255);
+    height: 4.2%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:49.25%;
+    top:24.5%;
+    z-index: 10;
+    opacity: 1;
+    -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+    box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+
+    border: .1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.Selected-Door4{
+    background-color: rgb(226, 193, 45);
+    height: 5%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:49.25%;
+    top:24.5%;
+    z-index: 10;
+    opacity: 0;
+   
+}
+
+.Selected-Door4:hover{
+    background-color: rgb(255, 255, 255);
+    height: 4.2%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:49.25%;
+    top:24.5%;
+    z-index: 10;
+    opacity: 1;
+    -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+    box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+
+    border: .1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
