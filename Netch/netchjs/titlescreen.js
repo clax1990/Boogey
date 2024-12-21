@@ -1,6 +1,7 @@
 
 
 let getStoryChoiceDisplayContainer = document.getElementById("Story-Choice-Display-Container");
+let getStoryChoiceDisplay = document.getElementById("Story-Choice-Display");
 let getStoryDisplayContainer = document.getElementById("Story-Display-Container");
 let getInterface1Container = document.getElementById("Interface1-Container");
 let getInterface2Container = document.getElementById("Interface2-Container");
@@ -18,6 +19,11 @@ function newGame(){
     getInterface1Container.style.display = "flex";
     getBoardContainer.style.display = "flex";
     getBagButton.style.display = "flex";
+    getDiceRollButton.style.display = "none";
+    getStoryTextDisplay.innerHTML = "Woman: Hey! You must be Tom! <br>--She yells from a window-- "
+    getStoryChoiceDisplayContainer.style.display ="flex";
+    getStoryChoice1.style.display = "flex";
+    getStoryChoice1.style.display = "flex";
 }
 
  
