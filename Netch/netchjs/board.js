@@ -10,6 +10,10 @@
 
 
  function movePlayerPiece() {
+
+
+
+  
  console.log(`Event Gate: ${eventGate}`);
    setTimeout(() => {
       getDiceRollButton.disabled = true;
@@ -43,7 +47,7 @@
       //gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, y: '80%'});
      }
 
-     switch (1) {
+     switch (playerPosition) {
 
      case 1:
 
