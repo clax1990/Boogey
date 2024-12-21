@@ -5,7 +5,7 @@
 
 
 .Selected-Door1{
-    background-color: rgb(226, 193, 45);
+    background-color: rgb(2, 2, 2);
     height: 5%;
     width: 2%;
     display: flex;
@@ -35,17 +35,48 @@
     border-radius: 10px;
 }
 
-
-.Selected-Door1-Button{
-    background-color: rgb(255, 255, 255);
-    height: 2%;
-    width: 2%;
+ .Door1-Image{
     display: flex;
     position: absolute;
-    left:52.8%;
+    height: 100%;
+    width: 100%;
+ }
+
+
+.Selected-Door4-Button1{
+    background-color: rgb(204, 212, 224);
+    height: 3%;
+    width: 3%;
+    display: none;
+    position: absolute;
+    left:51.8%;
     top:40%;
     z-index: 10;
-    opacity: .8;
+    opacity: .6;
+    border-radius: 6px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.Selected-Door4-Button2{
+    background-color: rgb(204, 212, 224);
+    height: 3%;
+    width: 3%;
+    display: none;
+    position: absolute;
+    left:51.8%;
+    top:43.3%;
+    z-index: 10;
+    opacity: .6;
+    border-radius: 6px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100%;
 }
 
 

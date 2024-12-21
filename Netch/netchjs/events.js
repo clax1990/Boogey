@@ -1,5 +1,5 @@
 
-
+ 
 
  let getStoryTextDisplay = document.getElementById("Story-Text-Display");
  let getStoryChoice1 = document.getElementById("Story-Choice1");
@@ -345,3 +345,6 @@
    break;
  }
  }
+
+
+
