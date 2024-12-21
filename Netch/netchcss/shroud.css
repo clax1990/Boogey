@@ -27,7 +27,7 @@
     width: 26%;
     left:64%;
     top:65.5%;
-     opacity: 1;
+     
      z-index: 20;
      opacity: 0.1;
 }
@@ -40,9 +40,9 @@
     width: 28%;
     left:9%;
     top:50.5%;
-     opacity: 1;
+     opacity: .1;
      z-index: 20;
-     opacity: 0.1;
+     
 }
 
 .Shroud4{
@@ -53,7 +53,7 @@
     width: 24%;
     left:39%;
     top:51%;
-     opacity: 1;
+    
      z-index: 20;
      opacity: 0.1;
 }
@@ -120,7 +120,7 @@
     top:17.5%;
      opacity: 1;
      z-index: 20;
-     opacity: 0.0;
+     opacity: 0.1;
 }
 
 .Shroud10{
@@ -133,7 +133,7 @@
     top:17.5%;
      opacity: 1;
      z-index: 20;
-     opacity: 0.0;
+     opacity: 0.1;
 }
 
 .Shroud11{
@@ -146,7 +146,7 @@
     top:67.5%;
      opacity: 1;
      z-index: 20;
-     opacity: 0.2;
+     opacity: 0.1;
 }
 
 .Shroud12{
@@ -159,7 +159,7 @@
     top:67.5%;
      opacity: 1;
      z-index: 20;
-     opacity: 0.2;
+     opacity: 0.1;
 }
 
 

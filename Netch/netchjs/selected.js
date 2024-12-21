@@ -4,6 +4,8 @@ let getSelectedDoor2Button2 = document.getElementById("Selected-Door4-Button2");
 
 let key4 = 0;
 
+let shroud1 = document.getElementById("Shroud1");
+let shroud2 = document.getElementById("Shroud2");
 
 function door4(){
    getSelectedDoor1Button1.style.display = "flex";
@@ -15,6 +17,7 @@ function door4(){
 
      if (key4 === 1){
         alert("hello world");
+        shroud2.style.display = "none";
      } else {
         getStoryTextDisplay.innerHTML = "You need a Key to enter Boogeys manson.";
      }
