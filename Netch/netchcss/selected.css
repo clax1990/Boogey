@@ -71,12 +71,12 @@
 
 .Selected-Door3{
     background-color: rgb(226, 193, 45);
-    height: 5%;
-    width: 2%;
+    height: 3.5%;
+    width: 1.3%;
     display: flex;
     position: absolute;
-    left:49.25%;
-    top:24.5%;
+    left:38.25%;
+    top:23.2%;
     z-index: 10;
     opacity: 0;
    
@@ -84,12 +84,12 @@
 
 .Selected-Door3:hover{
     background-color: rgb(255, 255, 255);
-    height: 4.2%;
-    width: 2%;
+    height: 3.5%;
+    width: 1.3%;
     display: flex;
     position: absolute;
-    left:49.25%;
-    top:24.5%;
+    left:38.25%;
+    top:23.2%;
     z-index: 10;
     opacity: 1;
     -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
@@ -102,12 +102,12 @@
 
 .Selected-Door4{
     background-color: rgb(226, 193, 45);
-    height: 5%;
+    height: 3.8%;
     width: 2%;
     display: flex;
     position: absolute;
     left:49.25%;
-    top:24.5%;
+    top:41.6%;
     z-index: 10;
     opacity: 0;
    
@@ -115,17 +115,49 @@
 
 .Selected-Door4:hover{
     background-color: rgb(255, 255, 255);
-    height: 4.2%;
+    height: 3.8%;
     width: 2%;
     display: flex;
     position: absolute;
     left:49.25%;
-    top:24.5%;
+    top:41.6%;
     z-index: 10;
     opacity: 1;
     -webkit-box-shadow:0px 0px 159px 82px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
     box-shadow: 0px 0px 159px 82px rgba(255,255,255,1);
+
+    border: .1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+.Selected-Table1{
+    background-color: rgb(226, 193, 45);
+    height: 2.9%;
+    width: 1.4%;
+    display: flex;
+    position: absolute;
+    left:40.5%;
+    top:40.0%;
+    z-index: 10;
+    opacity: 0;
+   
+}
+
+.Selected-Table1:hover{
+    background-color: rgb(69, 72, 73);
+    height: 2.9%;
+    width: 1.4%;
+    display: flex;
+    position: absolute;
+    left:40.5%;
+    top:40%;
+    z-index: 10;
+    opacity: 1;
+    -webkit-box-shadow:0px 0px 159px 82px rgb(177, 22, 22);
+    -moz-box-shadow: 0px 0px 159px 82px rgb(76, 177, 17);
+    box-shadow: 0px 0px 100px 35px rgb(174, 255, 237);
 
     border: .1px solid rgb(255, 255, 255, 0.5);
     border-radius: 10px;
