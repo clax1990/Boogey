@@ -5,7 +5,7 @@
  let getStoryChoice1 = document.getElementById("Story-Choice1");
  
 
- let storyChoiceCount = 0;
+
  let eventGate = 0;
 
  function Event1(){
@@ -329,22 +329,8 @@
  }
 
 
- function storyChoice1(){
  
- switch (storyChoiceCount) {
-   case 1:
-   alert("dodo");
-     storyChoiceCount = 2;
-     console.log(`StoryChoiceCount: ${storyChoiceCount}`);
-   break;
-
-   case 2:
-   alert("AHHHHHHHH!");
-   storyChoiceCount = 3;
-   console.log(`StoryChoiceCount: ${storyChoiceCount}`);
-   break;
- }
- }
+ 
 
 
 

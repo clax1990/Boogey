@@ -24,6 +24,7 @@ function newGame(){
     getStoryChoiceDisplayContainer.style.display ="flex";
     getStoryChoice1.style.display = "flex";
     getStoryChoice1.style.display = "flex";
+    getStoryChoice1.innerHTML = "Yes ma'am I'm Tom.";
 }
 
  
