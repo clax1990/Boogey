@@ -43,7 +43,7 @@
       //gsap.to('.Player-Piece1' , {duration: 0.5, transition: 3, y: '80%'});
      }
 
-     switch (playerPosition) {
+     switch (1) {
 
      case 1:
 
