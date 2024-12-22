@@ -4,7 +4,7 @@
 
 .Story-Display-Container{
     
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
         display: none;
         position: absolute;
         height: 20%;
@@ -15,7 +15,7 @@
 }
 
 .Story-Display{
-    background-color: rgb(255, 255, 255);
+     background-color: rgb(51, 48, 48);
         display: flex;
         position: absolute;
         height: 97%;
@@ -26,7 +26,7 @@
 }
 
 .Story-Text-Display{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(51, 48, 48);
     display: flex;
     position: absolute;
     height: 97%;
@@ -54,7 +54,7 @@
 
 
 .Story-Choice-Display-Container{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(51, 48, 48);
     display: none;
     position: absolute;
     height: 12%;
@@ -69,7 +69,7 @@
 }
 
 .Story-Choice-Display{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(51, 48, 48);
     display: flex;
     position: absolute;
     height: 97%;
@@ -90,7 +90,7 @@
     background-color:rgb(255, 255, 255);
     height:18%;
     width:6%;
-    top:57%;
+    top:58%;
     left:63.5%;
     z-index: 10;
     opacity: .7;

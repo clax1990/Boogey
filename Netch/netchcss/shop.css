@@ -1,0 +1,13 @@
+
+
+
+
+
+
+.Shop-Container{
+    background-color: chartreuse;
+    display: flex;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+}
