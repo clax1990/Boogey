@@ -14,6 +14,8 @@ let getSelectKimberlyButton1 = document.getElementById("Selected-Kimberly-Button
 let getSelectKimberlyButton2 = document.getElementById("Selected-Kimberly-Button2");
 let getSelectKimberlyButton3 = document.getElementById("Selected-Kimberly-Button3");
 
+let getSelectKimberly = document.getElementById("Selected-Kimberly");
+
 let getBubbleChatText = document.getElementById("Bubble-Chat-Text");
 let getBubbleChatContainer = document.getElementById("Bubble-Chat-Container");
 
@@ -81,6 +83,9 @@ function door4(){
    
     switch (KimberlyTalkGate1){
        case 1:
+
+        getSelectKimberly.style.display = "none";
+
          getSelectKimberlyButton1.style.display = "none";
          getSelectKimberlyButton2.style.display = "none";
          getSelectKimberlyButton3.style.display = "none";
@@ -100,6 +105,7 @@ function door4(){
        case 2:
         getStoryTextDisplay.innerHTML = "Woman: The Bag icon holds your belongings.<br> The bag Icon also serves to summon your<br> Player sheet."
         getBagButton.style.display = "flex";
+       
         storyChoiceCount = 5;
        break;
 
@@ -111,11 +117,45 @@ function door4(){
        case 4:
        getStoryTextDisplay.innerHTML = "Woman: If Boogey finds you without his picture<br> then you're a dead man.."
        storyChoiceCount = 7;
+      
        break;
 
        case 5:
          getStoryTextDisplay.innerHTML = "Woman: My name is Kimberly by the way..<br> Off you go.."
+        
          storyChoiceCount = 8;
+        
+
+       break;
+
+       case 6:
+      
+       getStoryImageContainer.style.display = "flex";
+       getStoryChoice1.style.display = "flex";
+       getStoryChoice2.style.display = "flex";
+       
+       getStoryTextDisplay.innerHTML = "Kimberly: What do you need?<br> You should be finding BOOGEY.";
+       getStoryChoice1.innerHTML = "Do you have any tips for me?";
+       getStoryChoice2.innerHTML = "Nevermind";
+       storyChoiceCount = 9;
+       break;
+
+       case 7:
+       //getStoryTextDisplay.innerHTML = "";
+       //getStoryImageContainer.style.display = "none";
+       //getStoryChoice1.style.display = "none";
+       
+       storyChoiceCount= 10;
+       break;
+
+       case 8:
+       getStoryTextDisplay.innerHTML = "Kimberly: What?";
+       getStoryImageContainer.style.display = "flex";
+       getStoryChoice1.style.display = "flex";
+       getStoryChoice1.innerHTML = "Nevermind";
+       
+       //KimberlyTalkGate1 === 8;
+       //storyChoiceCount= 11;
        break;
     }
 

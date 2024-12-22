@@ -56,6 +56,7 @@ let storyChoiceCount = 1;
 
          case 7:
             KimberlyTalkGate1 = 5;
+
             kimberlyTalkButton();
          break;
 
@@ -65,6 +66,36 @@ let storyChoiceCount = 1;
           getStoryTextDisplay.innerHTML = "";
           getStoryImageContainer.style.display = "none";
           getDiceRollButton.disabled = false;
+          KimberlyTalkGate1 = 6;
+          getSelectKimberly.style.display = "flex";
+         // kimberlyTalkButton();
+         break;
+
+         case 9:
+         getStoryTextDisplay.innerHTML = "Kimberly: Check around the house often<br> as items tend to just appear!";
+         getStoryChoice1.innerHTML = "Ok thanks.";
+         getStoryChoice2.style.display = "none";
+
+         KimberlyTalkGate1= 7;
+         kimberlyTalkButton();
+         //kimberlyTalkButton();
+         break;
+
+         case 10:
+            
+          getStoryTextDisplay.innerHTML = "";
+          getStoryImageContainer.style.display = "none";
+          getStoryChoice1.style.display = "none";
+          KimberlyTalkGate1= 8;
+          
+         //kimberlyTalkButton();
+         break;
+
+         case 11:
+         alert("11");
+         getStoryTextDisplay.innerHTML = "";
+         getStoryImageContainer.style.display = "none";
+         getStoryChoice1.style.display = "none";
          break;
 
     

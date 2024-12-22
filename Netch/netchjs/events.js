@@ -3,7 +3,7 @@
 
  let getStoryTextDisplay = document.getElementById("Story-Text-Display");
  let getStoryChoice1 = document.getElementById("Story-Choice1");
- 
+ let getStoryChoice2 = document.getElementById("Story-Choice2");
 
 
  let eventGate = 0;
