@@ -7,22 +7,24 @@
 .Bag-Button{
     display: none;
     position: absolute;
-    height: 10%;
-    width: 5%;
+    height: 7%;
+    width: 3.5%;
     background-color: rgb(0, 0, 0);
-    top:76.5%;
-    left:24.5%;
+    top:62%;
+    left:30%;
     border-radius: 100px;
+    z-index: 1;
 }
 
 .Bag-Button-Image{
     display: flex;
     position: absolute;
-    height: 10%;
-    width: 5%;
+    height: 100%;
+    width: 100%;
     background-color: aqua;
-    top:76.5%;
-    left:24.5%;
+    top:0%;
+    left:0%;
+    border-radius: 100px;
 }
 
 .Bag-Inventory-Container{
@@ -32,7 +34,7 @@
     width: 23.5%;
     background-color: rgb(255, 255, 255);
     top:76.5%;
-    left:.5%;
+    left:5.8%;
     border-radius: 8px;
 }
 

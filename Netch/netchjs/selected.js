@@ -65,6 +65,19 @@ function door4(){
  }
 
 
+ function kimberlyCancelButton(){
+    getSelectKimberlyButton1.style.display = "none";
+    getSelectKimberlyButton2.style.display = "none";
+    getSelectKimberlyButton3.style.display = "none";
+ }
+
+ function kimberlyTalkButton(){
+    getStoryImageContainer.style.display = "flex";
+    getStoryTextDisplay.innerHTML = "Well Tom..<br> Those dice over there will get you across the board.<br> That Back Pack Icon opens your inventory <br>and character sheet."
+    getDiceRollButton.style.display = "flex";
+ }
+
+
  function BubbleOkButton(){
     getBubbleChatContainer.style.display = "none";
  }
