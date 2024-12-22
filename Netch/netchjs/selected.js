@@ -16,6 +16,9 @@ let getSelectKimberlyButton3 = document.getElementById("Selected-Kimberly-Button
 
 let getBubbleChatText = document.getElementById("Bubble-Chat-Text");
 let getBubbleChatContainer = document.getElementById("Bubble-Chat-Container");
+
+let getShopContainer = document.getElementById("Shop-Container");
+
 let key4 = 0;
 
 let shroud1 = document.getElementById("Shroud1");
@@ -72,9 +75,21 @@ function door4(){
  }
 
  function kimberlyTalkButton(){
+    getSelectKimberlyButton1.style.display = "none";
+    getSelectKimberlyButton2.style.display = "none";
+    getSelectKimberlyButton3.style.display = "none";
+
+    
     getStoryImageContainer.style.display = "flex";
     getStoryTextDisplay.innerHTML = "Well Tom..<br> Those dice over there will get you across the board.<br> That Back Pack Icon opens your inventory <br>and character sheet."
     getDiceRollButton.style.display = "flex";
+ }
+
+ function kimberlyShopButton(){
+   getShopContainer.style.display = "flex";
+   getSelectKimberlyButton1.style.display = "none";
+   getSelectKimberlyButton2.style.display = "none";
+   getSelectKimberlyButton3.style.display = "none";
  }
 
 
