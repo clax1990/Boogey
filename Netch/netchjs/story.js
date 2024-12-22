@@ -6,7 +6,7 @@ let storyChoiceCount = 1;
 
 
  function storyChoice1(){
- 
+ KimberlyTalkGate1 = 1;
      switch (storyChoiceCount) {
          case 1:
          getStoryTextDisplay.innerHTML = "Woman: Use that key Mr.John gave you to get in.<br> That way I know Its really you and not some theif."
@@ -35,6 +35,12 @@ let storyChoiceCount = 1;
          console.log(`Key4: ${key4}`);
          storyChoiceCount = 4;
          console.log(`StoryChoiceCount: ${storyChoiceCount}`);
+         break;
+
+         case 4:
+         
+         KimberlyTalkGate1 = 2;
+         kimberlyTalkButton();
          break;
 
     

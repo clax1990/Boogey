@@ -1,7 +1,7 @@
 
 
 
-
+let KimberlyTalkGate1 = 0;
 
 
 
@@ -75,15 +75,49 @@ function door4(){
  }
 
  function kimberlyTalkButton(){
-    getSelectKimberlyButton1.style.display = "none";
-    getSelectKimberlyButton2.style.display = "none";
-    getSelectKimberlyButton3.style.display = "none";
+    
+    
+
+   
+    switch (KimberlyTalkGate1){
+       case 1:
+         getSelectKimberlyButton1.style.display = "none";
+         getSelectKimberlyButton2.style.display = "none";
+         getSelectKimberlyButton3.style.display = "none";
+         getStoryImageContainer.style.display = "flex";
+         getDiceRollButton.style.display = "flex";
+         getStoryTextDisplay.innerHTML = "Woman: Well Tom..<br> Those dice over there will get you across the board.<br>You will be moved 1-6 spaces each roll."
+         getStoryChoice1.style.display = "flex";
+        
+         
+         console.log(`KimberlyTalkButton() Gate1: ${KimberlyTalkGate1}`)
+       break;
+
+       case 2:
+        getStoryTextDisplay.innerHTML = "Woman: The Bag icon holds your belongings.<br> The bag Icon also serves to summon your<br> Player sheet."
+        getBagButton.style.display = "flex";
+       break;
+    }
+
 
     
-    getStoryImageContainer.style.display = "flex";
-    getStoryTextDisplay.innerHTML = "Well Tom..<br> Those dice over there will get you across the board.<br> That Back Pack Icon opens your inventory <br>and character sheet."
-    getDiceRollButton.style.display = "flex";
+
+
+
+
+
+
+
+
+
+
+
  }
+
+
+ 
+
+
 
  function kimberlyShopButton(){
    getShopContainer.style.display = "flex";
