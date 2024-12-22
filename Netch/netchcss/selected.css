@@ -84,6 +84,98 @@
 
 
 
+.Selected-Kimberly{
+    background-color: rgb(255, 255, 255);
+    height: 3.5%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:60.8%;
+    top:38.5%;
+    z-index: 10;
+    opacity: 0;
+    border-radius: 6px;
+   
+}
+
+.Selected-Kimberly:hover{
+    background-color: rgb(255, 255, 255);
+    height: 3.5%;
+    width: 2%;
+    display: flex;
+    position: absolute;
+    left:60.8%;
+    top:38.5%;
+    z-index: 10;
+    opacity: 0.12;
+    -webkit-box-shadow:0px 30px 159px 82px rgb(17, 158, 52);
+    -moz-box-shadow: 99px 99px 159px 82px rgb(8, 114, 117);
+    box-shadow: 10px 10px 100px 100px rgb(255, 242, 126);
+   
+   
+}
+
+
+.Selected-Kimberly-Button1{
+    background-color: rgb(255, 255, 255);
+    height: 2.5%;
+    width: 3%;
+    display: none;
+    position: absolute;
+    left:58%;
+    top:38.5%;
+    z-index: 10;
+    opacity: .6;
+    border-radius: 4px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.Selected-Kimberly-Button2{
+    background-color: rgb(255, 255, 255);
+    height: 2.5%;
+    width: 3%;
+    display: none;
+    position: absolute;
+    left:58%;
+    top:41%;
+    z-index: 10;
+    opacity: .6;
+    border-radius: 4px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.Selected-Kimberly-Button3{
+    background-color: rgb(255, 255, 255);
+    height: 2.5%;
+    width: 3%;
+    display: none;
+    position: absolute;
+    left:58%;
+    top:43.5%;
+    z-index: 10;
+    opacity: .6;
+    border-radius: 4px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100%;
+}
+
+
+
+
+
+
+
 
 
 

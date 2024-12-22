@@ -2,6 +2,7 @@
 
 let storyChoiceCount = 1;
 
+ let getImage1 = document.getElementById("Image1");
 
 
  function storyChoice1(){
@@ -19,7 +20,8 @@ let storyChoiceCount = 1;
    
          case 2:
          getStoryTextDisplay.innerHTML = "---You look down in your bag and find the key<br> Mr. John gave you. <br> Must have slipped your mind...---"
-        
+         getStoryImageContainer.style.display = "none";
+         console.log(`getStoryImageContainer-display is off`);
          storyChoiceCount = 3;
          console.log(`StoryChoiceCount: ${storyChoiceCount}`);
          break;

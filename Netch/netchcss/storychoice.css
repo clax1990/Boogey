@@ -5,7 +5,7 @@
 
 
 .Story-Choice1{
-    background-color: rgb(36, 187, 94);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     display: none;
     height: 25%;
@@ -13,7 +13,7 @@
     left:18%;
     top:5%;
     font-family: "Caveat", cursive;
-    border: 1px solid rgb(22, 26, 26);
+    border: 1px solid rgb(255, 255, 255);
     font-weight: 500;
     font-style: normal;
     font-size: 50%;
@@ -21,8 +21,8 @@
 }
 
 .Story-Choice1:hover {
-    box-shadow: 0 0 20px 5px rgb(255, 255, 255), 
-                0 0 30px 10px rgb(253, 253, 253), 
+    box-shadow: 0 0 2px 5px rgb(255, 255, 255), 
+                0 0 8px 10px rgb(0, 0, 0), 
                 0 0 40px 15px rgb(255, 255, 255);
     transform: scale(1.05); 
     cursor: pointer;
