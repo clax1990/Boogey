@@ -5,9 +5,43 @@
 
 
 .Shop-Container{
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     display: flex;
     position: absolute;
-    height: 20%;
+    height: 25%;
     width: 20%;
+    left:20%;
+    z-index: 41;
+    left:40%;
+    top:15%;
+    border-radius: 8px;
+    opacity:0.6;
+}
+
+.Shop-Item1-Image-Container{
+    background-color: rgb(22, 18, 18);
+    display: flex;
+    position: absolute;
+    height: 15%;
+    width: 10%;
+    left:5%;
+    z-index: 41;
+    
+    top:20%;
+    border-radius: 8px;
+    opacity:0.6;
+}
+
+.Shop-Item2-Image-Container{
+    background-color: rgb(22, 18, 18);
+    display: flex;
+    position: absolute;
+    height: 15%;
+    width: 10%;
+    left:5%;
+    z-index: 41;
+    
+    top:47.5%;
+    border-radius: 8px;
+    opacity:0.6;
 }
