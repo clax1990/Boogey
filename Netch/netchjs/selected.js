@@ -86,6 +86,10 @@ function door4(){
          getSelectKimberlyButton3.style.display = "none";
          getStoryImageContainer.style.display = "flex";
          getDiceRollButton.style.display = "flex";
+
+         getDiceRollButton.disabled = true;
+
+
          getStoryTextDisplay.innerHTML = "Woman: Well Tom..<br> Those dice over there will get you across the board.<br>You will be moved 1-6 spaces each roll."
          getStoryChoice1.style.display = "flex";
         
@@ -96,6 +100,22 @@ function door4(){
        case 2:
         getStoryTextDisplay.innerHTML = "Woman: The Bag icon holds your belongings.<br> The bag Icon also serves to summon your<br> Player sheet."
         getBagButton.style.display = "flex";
+        storyChoiceCount = 5;
+       break;
+
+       case 3:
+       getStoryTextDisplay.innerHTML = "Woman: Boogey will be around here somewhere.<br>You need to use his picture to banish him and<br> I've had no luck finding it."
+       storyChoiceCount = 6;
+       break;
+
+       case 4:
+       getStoryTextDisplay.innerHTML = "Woman: If Boogey finds you without his picture<br> then you're a dead man.."
+       storyChoiceCount = 7;
+       break;
+
+       case 5:
+         getStoryTextDisplay.innerHTML = "Woman: My name is Kimberly by the way..<br> Off you go.."
+         storyChoiceCount = 8;
        break;
     }
 

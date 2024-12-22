@@ -43,6 +43,30 @@ let storyChoiceCount = 1;
          kimberlyTalkButton();
          break;
 
+         case 5:
+         
+         KimberlyTalkGate1 = 3;
+         kimberlyTalkButton();
+         break;
+
+         case 6:
+            KimberlyTalkGate1 = 4;
+            kimberlyTalkButton();
+         break;
+
+         case 7:
+            KimberlyTalkGate1 = 5;
+            kimberlyTalkButton();
+         break;
+
+         case 8:
+          
+          getStoryChoice1.style.display = "none";
+          getStoryTextDisplay.innerHTML = "";
+          getStoryImageContainer.style.display = "none";
+          getDiceRollButton.disabled = false;
+         break;
+
     
      }
 
