@@ -9,8 +9,14 @@
 
  const HealthPotion = {
     PlayerHealthPotion: 0,
-    StoreHealthPotion: 1,
+    StoreHealthPotion: 5,
     ConfirmHealthPotion: 0,
+ }
+
+ const PocketWatch = {
+    PlayerPocketWatch: 0,
+    StorePocketWatch: 1,
+    ConfirmPocketWatch: 0,
  }
 
 
@@ -20,13 +26,3 @@
 
 
 
-// Using Object Literal
-//const obj = {
-   // key1: value1,
-  // key2: value2,
-   // key3: value3,
-    // Method (function as a value)
-   // methodName: function() {
-  //    console.log("This is a method.");
-  //  }
-//  };

@@ -6,8 +6,65 @@
 
 
 
+.Shop-Item1-Store-Amount{
+    display: flex;
+    position: absolute;
+    height: 7%;
+    width:7%;
+    background-color: rgb(255, 255, 255);
+    top:32%;
+    left:6%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70%;
+}
 
+.Shop-Item2-Store-Amount{
+    display: flex;
+    position: absolute;
+    height: 7%;
+    width:7%;
+    background-color: rgb(255, 255, 255);
+    top:32%;
+    left:28%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70%;
+}
 
+.Shop-Item1-Store-Cost{
+    display: flex;
+    position: absolute;
+    height: 7%;
+    width:7%;
+    background-color: rgb(255, 255, 255);
+    top:32%;
+    left:13.5%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70%;
+}
+
+.Shop-Item2-Store-Cost{
+    display: flex;
+    position: absolute;
+    height: 7%;
+    width:7%;
+    background-color: rgb(255, 255, 255);
+    top:32%;
+    left:35.5%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70%;
+}
 
 
 
@@ -79,7 +136,7 @@
     
     top:10%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 
@@ -291,3 +348,19 @@
  font-size: 85%;
  opacity: 1;
 }
+
+.Shop-Item2-Name-Container{
+    display: flex;
+    position: absolute;
+    height: 7%;
+    width:18%;
+    background-color: rgb(255, 255, 255);
+    top:26%;
+    left: 26%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 85%;
+    opacity: 1;
+   }
