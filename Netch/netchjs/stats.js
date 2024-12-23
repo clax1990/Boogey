@@ -9,3 +9,10 @@
     KimberlyAttack: 9 ,
     GnomeAttack: 1 ,
  }
+
+ const Health = {
+    PlayerHealth: 2 ,
+    BoogeyHealth: 5 ,
+    KimberlyHealth: 9 ,
+    GnomeHealth: 1 ,
+ }

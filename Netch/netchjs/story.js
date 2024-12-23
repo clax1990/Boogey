@@ -98,6 +98,17 @@ let storyChoiceCount = 1;
          getStoryChoice1.style.display = "none";
          break;
 
+         case 12:
+            Gate1 = 1;
+            Event1();
+         break;
+
+         case 13:
+         
+         Gate1 = 2;
+         Event1();
+         break;
+
     
      }
 

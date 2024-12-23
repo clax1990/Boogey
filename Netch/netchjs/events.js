@@ -4,21 +4,38 @@
  let getStoryTextDisplay = document.getElementById("Story-Text-Display");
  let getStoryChoice1 = document.getElementById("Story-Choice1");
  let getStoryChoice2 = document.getElementById("Story-Choice2");
-
-
  let eventGate = 0;
+ let Gate1 = 0;
+ 
 
  function Event1(){
+   
+//STORY
+   
 
-    //STORY
-    getStoryTextDisplay.innerHTML = "As you begin to make your way inside, You see<br> something out of the corner of your eye.....<br>something is in the window..";
-  
-    //DISPLAY
-    if(getDiceRollButton.style.display = "flex"){
-      getDiceRollButton.style.display = "none";
+
+
+     if(eventGate >= 1){
+
+     switch (Gate1){
+      case 1:
+      getStoryTextDisplay.innerHTML = "A strange scent lingers in the air, subtle and perplexing,<br> almost like the essence of something that shouldn't<br> have a smell—like the quiet of twilight."
+      storyChoiceCount = 13;
+      break;
+
+      case 2:
+        getStoryTextDisplay.innerHTML = "A cool, damp mist settles on the back of your neck, startling you.<br> Instinctively, you reach up to wipe away the mysterious moisture..<br>";
+      break;
+     }
     } else {
-      getDiceRollButton.style.display = "flex";
-    }
+      getStoryTextDisplay.innerHTML = "As you stand in the kitchen, a sudden chill sweeps across<br> your back, sending a shiver through you.";
+      
+     //DISPLAY
+     if(getDiceRollButton.style.display = "flex"){
+       getDiceRollButton.style.display = "none";
+     } else {
+       getDiceRollButton.style.display = "flex";
+     }
     
       
     if(getStoryChoiceDisplayContainer.style.display = "none"){
@@ -27,9 +44,11 @@
        getStoryChoiceDisplayContainer.style.display = "none";
     }
     
-    getStoryChoice1.style.display = "flex";
-    eventGate = eventGate + 1;
-    console.log(`Event Gate from Event1function: ${eventGate}`);
+     getStoryChoice1.style.display = "flex";
+     eventGate = eventGate + 1;
+     console.log(`Event Gate from Event1function: ${eventGate}`);
+     storyChoiceCount = 12;
+    }
  };
 
 
