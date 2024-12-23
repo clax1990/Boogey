@@ -37,6 +37,7 @@
     left:14.5%;
     box-shadow: 1px 0px 8px rgb(31, 26, 26);
     opacity: 0.9;
+    box-shadow: 1px 1px 10px 0px rgb(181, 194, 218);
 }
 
 
@@ -50,6 +51,7 @@
     width: 6.5%;
     top:46%;
     left:63.5%;
+    box-shadow: 1px 1px 10px 0px rgb(181, 194, 218);
 }
 
 .Interface2{

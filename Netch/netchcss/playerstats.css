@@ -13,6 +13,7 @@
     background-color: rgb(51, 48, 48);
     left: 7.5%;
     top:5.7%;
+    
 }
 
 .Player-Stats{
@@ -34,6 +35,7 @@
     background-color: rgb(51, 48, 48);
     left: 0%;
     top:0%;
+    
 }
 
 .Player-Stats-Portrait-Image{
@@ -43,6 +45,7 @@
     width: 100%;
     opacity: .4;
     border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgb(181, 194, 218);
 }
 
 .Player-Stats-List-Container{
@@ -63,6 +66,7 @@
     left:4.5%;
     top:5%;
     opacity:.8;
+    box-shadow: 5px 10px 511px 0px rgb(181, 194, 218);
 }
 
 .Player-Stats-Health-Image-Container{
@@ -74,6 +78,7 @@
     top:5%;
     left:2.5%;
     border-radius: 12px;
+    box-shadow: 1px 1px 10px 0px rgb(181, 194, 218);
 }
 
 .Player-Stats-Health-Text-Container{
@@ -102,6 +107,7 @@
     top:36%;
     left:2.5%;
     border-radius: 12px;
+    box-shadow: 1px 1px 10px 0px rgb(181, 194, 218);
 }
 
 .Attack-Stat-Image{
@@ -139,6 +145,7 @@
     top:67.5%;
     left:2.5%;
     border-radius: 12px;
+    box-shadow: 1px 1px 10px 0px rgb(181, 194, 218);
 }
 
 
@@ -170,4 +177,17 @@
     font-weight: 500;
     font-style: normal;
     font-size: 150%;
+}
+
+
+.Player-Stats-Health-Bar{
+    display: flex;
+    position: absolute;
+    height:6%;
+    width: 15%;
+    background-color: rgb(75, 0, 0);
+    top:17.5%;
+    left: 32%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 0px rgb(255, 255, 255);
 }

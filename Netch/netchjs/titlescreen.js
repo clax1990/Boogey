@@ -26,6 +26,8 @@ function newGame(){
     getStoryChoice1.style.display = "flex";
     getStoryChoice1.innerHTML = "Yes ma'am I'm Tom.";
     getBagButton.style.display = "none";
+    getPlayerStatsAttackTextContainer.innerHTML = `Attack (${Attack.PlayerAttack})`;
+    getPlayerStatsGoldTextContainer.innerHTML = `Gold (${Gold.PlayerGold})`;
 }
 
  
