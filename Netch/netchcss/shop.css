@@ -4,6 +4,42 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.Shop-Image1{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+.Shop-Confirm-Image1{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    border-radius: 6px;
+    
+}
+
+
+
 .Shop-Container{
     background-color: rgb(255, 255, 255);
     display: none;
@@ -15,11 +51,11 @@
     left:40%;
     top:15%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:0.9;
 }
 
 .Shop-Item1-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -29,7 +65,7 @@
     
     top:10%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 .Shop-Item2-Image-Container{
@@ -114,7 +150,7 @@
 
 
 .Shop-Item1-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -124,11 +160,11 @@
     
     top:10%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 .Shop-Item2-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -138,13 +174,13 @@
     
     top:10%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 
 
 .Shop-Item3-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -154,11 +190,11 @@
     
     top:27%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 .Shop-Item4-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -168,11 +204,11 @@
     
     top:27%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 .Shop-Item5-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -182,11 +218,11 @@
     
     top:45%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 .Shop-Item6-Confirm-Image-Container{
-    background-color: rgb(22, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: absolute;
     height: 15%;
@@ -196,7 +232,7 @@
     
     top:45%;
     border-radius: 8px;
-    opacity:0.6;
+    opacity:1;
 }
 
 
@@ -240,3 +276,18 @@
 
 
 
+.Shop-Item1-Name-Container{
+ display: flex;
+ position: absolute;
+ height: 7%;
+ width:18%;
+ background-color: rgb(255, 255, 255);
+ top:26%;
+ left: 5.2%;
+ font-family: "Caveat", cursive;
+ font-optical-sizing: auto;
+ font-weight: 500;
+ font-style: normal;
+ font-size: 85%;
+ opacity: 1;
+}

@@ -133,7 +133,10 @@ function door4(){
        getStoryImageContainer.style.display = "flex";
        getStoryChoice1.style.display = "flex";
        getStoryChoice2.style.display = "flex";
-       
+       getSelectKimberlyButton1.style.display = "none";
+       getSelectKimberlyButton2.style.display = "none";
+       getSelectKimberlyButton3.style.display = "none";
+       getSelectKimberly.style.display = "none";
        getStoryTextDisplay.innerHTML = "Kimberly: What do you need?<br> You should be finding BOOGEY.";
        getStoryChoice1.innerHTML = "Do you have any tips for me?";
        getStoryChoice2.innerHTML = "Nevermind";
@@ -149,26 +152,19 @@ function door4(){
        break;
 
        case 8:
+
        getStoryTextDisplay.innerHTML = "Kimberly: What?";
        getStoryImageContainer.style.display = "flex";
        getStoryChoice1.style.display = "flex";
        getStoryChoice1.innerHTML = "Nevermind";
-       
+       getSelectKimberlyButton1.style.display = "none";
+       getSelectKimberlyButton2.style.display = "none";
+       getSelectKimberlyButton3.style.display = "none";
+       getSelectKimberly.style.display = "none";
        //KimberlyTalkGate1 === 8;
        //storyChoiceCount= 11;
        break;
     }
-
-
-    
-
-
-
-
-
-
-
-
 
 
 

@@ -75,7 +75,6 @@ let storyChoiceCount = 1;
          getStoryTextDisplay.innerHTML = "Kimberly: Check around the house often<br> as items tend to just appear!";
          getStoryChoice1.innerHTML = "Ok thanks.";
          getStoryChoice2.style.display = "none";
-
          KimberlyTalkGate1= 7;
          kimberlyTalkButton();
          //kimberlyTalkButton();
@@ -87,7 +86,8 @@ let storyChoiceCount = 1;
           getStoryImageContainer.style.display = "none";
           getStoryChoice1.style.display = "none";
           KimberlyTalkGate1= 8;
-          
+         
+          getSelectKimberly.style.display = "flex";
          //kimberlyTalkButton();
          break;
 
